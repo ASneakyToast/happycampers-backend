@@ -45,8 +45,6 @@ db.mongoose
 
 
 // API
-require("./routes/tutorial.routes")(app);
-require("./routes/idea.routes")(app);
 require("./routes/memory.routes")(app);
 
 app.get("/", (req, res) => {
